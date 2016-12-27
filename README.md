@@ -1,5 +1,7 @@
 # I2P Reseed
 
+Run an I2P Reseed :D
+
 ## Generating Keys
 	$ docker run -it geti2p/reseed bash -c "/go/bin/i2p-tools keygen --tlsHost reseed.example.com && cat /go/*.crt && cat /go/*.pem"
 	$ docker run -it geti2p/reseed bash -c "/go/bin/i2p-tools keygen --signer=example@mail.i2p && cat /go/*.crt && cat /go/*.pem"
